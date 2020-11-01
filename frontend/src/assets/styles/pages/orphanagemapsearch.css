@@ -66,3 +66,36 @@
 #page-search .create-orphanage:hover{
     background-color: #17d6eb;
 }
+
+#page-search .map-popup .leaflet-popup-content-wrapper{
+    background-color: #ffffffcc;
+    border-radius: 20px;
+    box-shadow: none;
+}
+#page-search .map-popup .leaflet-popup-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 8px 12px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #0089a5;
+}
+#page-search .map-popup .leaflet-popup-content a{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+
+    background: #15c3d6;
+    box-shadow: 17.2868px 27.6589px 41.4004px #178ea629;
+}
+#page-search .map-popup .leaflet-popup-tip-container{
+    display: none;
+}
